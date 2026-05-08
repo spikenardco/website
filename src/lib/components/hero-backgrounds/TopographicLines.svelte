@@ -7,31 +7,49 @@
 		aria-hidden="true"
 	>
 		<!-- Concentric organic contour lines -->
-		<ellipse cx="280" cy="200" rx="60" ry="45" stroke="var(--color-clay)" stroke-width="0.9" opacity="0.25">
-			<animateTransform attributeName="transform" type="rotate" values="0 280 200;360 280 200" dur="120s" repeatCount="indefinite" />
-		</ellipse>
-		<ellipse cx="280" cy="200" rx="95" ry="72" stroke="var(--color-clay)" stroke-width="0.9" opacity="0.20">
-			<animateTransform attributeName="transform" type="rotate" values="0 280 200;-360 280 200" dur="150s" repeatCount="indefinite" />
-		</ellipse>
-		<ellipse cx="280" cy="200" rx="130" ry="100" stroke="var(--color-clay)" stroke-width="0.8" opacity="0.17">
-			<animateTransform attributeName="transform" type="rotate" values="0 280 200;360 280 200" dur="180s" repeatCount="indefinite" />
-		</ellipse>
-		<ellipse cx="280" cy="200" rx="170" ry="130" stroke="var(--color-sand)" stroke-width="0.8" opacity="0.14">
-			<animateTransform attributeName="transform" type="rotate" values="0 280 200;-360 280 200" dur="200s" repeatCount="indefinite" />
-		</ellipse>
-		<ellipse cx="280" cy="200" rx="210" ry="162" stroke="var(--color-clay)" stroke-width="0.7" opacity="0.10">
-			<animateTransform attributeName="transform" type="rotate" values="0 280 200;360 280 200" dur="240s" repeatCount="indefinite" />
-		</ellipse>
-		<ellipse cx="280" cy="200" rx="250" ry="195" stroke="var(--color-sand)" stroke-width="0.6" opacity="0.08">
-			<animateTransform attributeName="transform" type="rotate" values="0 280 200;-360 280 200" dur="280s" repeatCount="indefinite" />
-		</ellipse>
+		<g class="spin-60" style="transform-origin: 280px 200px;">
+			<ellipse cx="280" cy="200" rx="60" ry="45" stroke="var(--color-clay)" stroke-width="0.9" opacity="0.25" />
+		</g>
+		<g class="spin-75" style="transform-origin: 280px 200px;">
+			<ellipse cx="280" cy="200" rx="95" ry="72" stroke="var(--color-clay)" stroke-width="0.9" opacity="0.20" />
+		</g>
+		<g class="spin-90" style="transform-origin: 280px 200px;">
+			<ellipse cx="280" cy="200" rx="130" ry="100" stroke="var(--color-clay)" stroke-width="0.8" opacity="0.17" />
+		</g>
+		<g class="spin-100" style="transform-origin: 280px 200px;">
+			<ellipse cx="280" cy="200" rx="170" ry="130" stroke="var(--color-sand)" stroke-width="0.8" opacity="0.14" />
+		</g>
+		<g class="spin-120" style="transform-origin: 280px 200px;">
+			<ellipse cx="280" cy="200" rx="210" ry="162" stroke="var(--color-clay)" stroke-width="0.7" opacity="0.10" />
+		</g>
+		<g class="spin-140" style="transform-origin: 280px 200px;">
+			<ellipse cx="280" cy="200" rx="250" ry="195" stroke="var(--color-sand)" stroke-width="0.6" opacity="0.08" />
+		</g>
 
 		<!-- Offset cluster -->
-		<ellipse cx="350" cy="140" rx="40" ry="30" stroke="var(--color-sand)" stroke-width="0.8" opacity="0.16">
-			<animateTransform attributeName="transform" type="rotate" values="0 350 140;360 350 140" dur="160s" repeatCount="indefinite" />
-		</ellipse>
-		<ellipse cx="350" cy="140" rx="70" ry="52" stroke="var(--color-clay)" stroke-width="0.6" opacity="0.12">
-			<animateTransform attributeName="transform" type="rotate" values="0 350 140;-360 350 140" dur="200s" repeatCount="indefinite" />
-		</ellipse>
+		<g class="spin-80" style="transform-origin: 350px 140px;">
+			<ellipse cx="350" cy="140" rx="40" ry="30" stroke="var(--color-sand)" stroke-width="0.8" opacity="0.16" />
+		</g>
+		<g class="spin-100" style="transform-origin: 350px 140px;">
+			<ellipse cx="350" cy="140" rx="70" ry="52" stroke="var(--color-clay)" stroke-width="0.6" opacity="0.12" />
+		</g>
 	</svg>
 </div>
+
+<style>
+	@keyframes spin-clockwise {
+		from { transform: rotate(0deg); }
+		to { transform: rotate(360deg); }
+	}
+	@keyframes spin-counter {
+		from { transform: rotate(0deg); }
+		to { transform: rotate(-360deg); }
+	}
+
+	.spin-60 { animation: spin-clockwise 40s linear infinite; }
+	.spin-75 { animation: spin-clockwise 50s linear infinite; }
+	.spin-90 { animation: spin-clockwise 60s linear infinite; }
+	.spin-100 { animation: spin-clockwise 70s linear infinite; }
+	.spin-120 { animation: spin-counter 80s linear infinite; }
+	.spin-140 { animation: spin-clockwise 90s linear infinite; }
+</style>
