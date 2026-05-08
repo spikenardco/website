@@ -23,7 +23,7 @@
 		<div class="max-w-[75rem] mx-auto px-6 h-16 flex items-center justify-between">
 			<a href="/" class="flex items-center gap-2 text-umber font-semibold text-lg tracking-tight">
 				<img src="/logo-mark.png" alt="" class="size-8" />
-				δόξα labs
+				Spikenard
 			</a>
 			<div class="flex items-center gap-8">
 				<div class="hidden sm:flex gap-8 text-sm font-medium">
@@ -124,7 +124,7 @@
 				<div>
 					<p class="flex items-center gap-2 text-umber font-semibold tracking-tight">
 						<img src="/logo-mark.png" alt="" class="size-6" />
-						δόξα labs
+						Spikenard
 					</p>
 					<p class="text-neutral-500 text-sm mt-1">Built with intention.</p>
 				</div>

@@ -2,7 +2,7 @@
 	<title>Guides — Spikenard</title>
 	<meta
 		name="description"
-		content="Brand and design system guides used across Doxa projects, with small project-level adjustments."
+		content="Brand and design system guides used across Spikenard projects, with small project-level adjustments."
 	/>
 </svelte:head>
 
@@ -14,7 +14,7 @@
 				Shared standards, shipped consistently
 			</h1>
 			<p class="mt-6 text-lg text-neutral-600 max-w-prose leading-relaxed">
-				This section documents the baseline standards we use across Doxa projects. Teams can make minor project-level tweaks, but the foundation stays consistent.
+				This section documents the baseline standards we use across Spikenard projects. Teams can make minor project-level tweaks, but the foundation stays consistent.
 			</p>
 		</div>
 	</div>
@@ -36,7 +36,28 @@
 				Brand Guide
 			</h2>
 			<p class="mt-3 text-neutral-500 leading-relaxed text-sm">
-				Name usage, tone of voice, color system, typography, and visual principles based on `doxa-brand-guide.md`.
+
+“Crafted with care.”
+
+“Built with intention.”
+
+“Made deliberately.”
+
+“The work speaks.”
+
+“Care in every layer.”
+
+“Built slowly enough to last.”
+
+“Quietly well made.”
+
+“Refined through use.”
+
+“Thoughtful software.”
+
+“Worth building well.”
+
+				Name usage, tone of voice, color system, typography, and visual principles based on `spikenard-brand-guide.md`.
 			</p>
 		</a>
 

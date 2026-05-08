@@ -4,21 +4,23 @@
 
 ## 1. The Name
 
-**spikenard** (δόξα) — Ancient Greek for **"glory, radiance, splendor."**
+**Spikenard** (νάρδος) — A precious aromatic oil from the Himalayas, mentioned in the Bible when Mary of Bethany anointed Jesus' feet (John 12:3). It represents something precious poured out in worship — worthy of the King.
 
-Used extensively in the New Testament to describe divine brilliance and the weightiness of something excellent. The word carries a sense of inherent worth that shines outward — not loud or boastful, but undeniably present.
+**Pronunciation:** SPIKE-nard
 
-**Pronunciation:** DOK-sah (rhymes with "moxa")
-
-**Tagline options:**
+**Tagline:**
 - "Built with intention."
 - "Crafted, not assembled."
-- "Glory in the details."
-- "The work speaks."
 
 **Origin story (for About pages, READMEs, etc.):**
 
-> spikenard takes its name from the Greek word for "glory" — the kind found not in noise, but in craft. Inspired by the artisans of Exodus 31, who were filled with wisdom, understanding, and skill to build something worthy, spikenard is a collective of builders who believe great software is made with care, shared generously, and refined relentlessly.
+> Spikenard is a collective of builders who believe software should be crafted with care and shared generously.
+>
+> The name comes from the costly oil poured out by Mary in the Gospels — an act of devotion marked by intention, beauty, and sacrifice. Its fragrance filled the room.
+>
+> We carry that same philosophy into our work: build carefully, refine relentlessly, and create things worthy of being shared.
+>
+> Inspired by the craftsmen of Exodus 31, we see engineering as both technical and creative work — thoughtful systems shaped by wisdom, patience, and attention to detail.
 
 ---
 

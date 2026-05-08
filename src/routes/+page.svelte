@@ -28,13 +28,13 @@
 		<div class="max-w-2xl">
 			<p class="text-clay font-medium text-sm tracking-wide uppercase mb-4">Builder Collective</p>
 			<h1 class="text-4xl sm:text-5xl font-bold text-umber leading-tight tracking-tight">
-				Glory in the details.
+				Built with intention.
 			</h1>
 			<p class="mt-3 text-neutral-400 text-sm tracking-wide">
-				doxa (δόξα) labs — <span class="italic">glory, radiance, splendor</span>
+				spikenard (νάρδος) — <span class="italic">costly oil poured out in worship</span>
 			</p>
 			<p class="mt-6 text-lg text-neutral-600 max-w-prose leading-relaxed">
-				Spikenard is a collective of builders who believe great software is made with care, shared generously, and refined relentlessly. We craft tools, platforms, and open-source projects.
+				Spikenard is a collective of builders who believe software should be crafted with care and shared generously. We craft tools, platforms, and open-source projects.
 			</p>
 			<div class="mt-8 flex flex-wrap gap-4">
 				<a
@@ -151,10 +151,10 @@
 			<h2 class="text-3xl font-semibold text-umber tracking-tight">Crafted, not assembled.</h2>
 			<div class="mt-6 space-y-4 text-neutral-600 leading-relaxed">
 				<p>
-					Doxa takes its name from the Greek word for "glory" — the kind found not in noise, but in craft. We're a small collective of builders who care deeply about the software we make.
+					The name comes from the costly oil poured out by Mary in the Gospels — an act of devotion marked by intention, beauty, and sacrifice. Its fragrance filled the room.
 				</p>
 				<p>
-					We build developer tools and platforms. We rebuild tutorials in modern frameworks. We create products — free and paid — and share what we learn along the way. Everything we ship is made with intention.
+					We carry that same philosophy into our work: build carefully, refine relentlessly, and create things worthy of being shared. Everything we ship is made with intention.
 				</p>
 				<p>
 					Inspired by the artisans of Exodus 31, who were filled with wisdom, understanding, and skill to build something worthy, we believe the best software comes from treating code as craft.

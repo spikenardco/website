@@ -33,8 +33,8 @@
 					All guides
 				</a>
 				<a
-					href="/doxa-brand-guide.md"
-					download="doxa-brand-guide.md"
+					href="/spikenard-brand-guide.md"
+					download="spikenard-brand-guide.md"
 					class="inline-flex items-center gap-1.5 text-xs font-semibold uppercase tracking-[0.08em] text-clay transition-colors duration-150 hover:text-umber"
 				>
 					<span class="icon-[lucide--download] size-3.5"></span>
