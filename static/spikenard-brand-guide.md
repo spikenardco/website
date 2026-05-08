@@ -1,10 +1,10 @@
-# Doxa Labs — Brand & Developer Guide
+# Spikenard — Brand & Developer Guide
 
 ---
 
 ## 1. The Name
 
-**Doxa** (δόξα) — Ancient Greek for **"glory, radiance, splendor."**
+**spikenard** (δόξα) — Ancient Greek for **"glory, radiance, splendor."**
 
 Used extensively in the New Testament to describe divine brilliance and the weightiness of something excellent. The word carries a sense of inherent worth that shines outward — not loud or boastful, but undeniably present.
 
@@ -18,34 +18,31 @@ Used extensively in the New Testament to describe divine brilliance and the weig
 
 **Origin story (for About pages, READMEs, etc.):**
 
-> Doxa takes its name from the Greek word for "glory" — the kind found not in noise, but in craft. Inspired by the artisans of Exodus 31, who were filled with wisdom, understanding, and skill to build something worthy, Doxa is a collective of builders who believe great software is made with care, shared generously, and refined relentlessly.
+> spikenard takes its name from the Greek word for "glory" — the kind found not in noise, but in craft. Inspired by the artisans of Exodus 31, who were filled with wisdom, understanding, and skill to build something worthy, spikenard is a collective of builders who believe great software is made with care, shared generously, and refined relentlessly.
 
 ---
 
 ## 1.1 GitHub Handle — Naming Decision
 
-> **Status: DECIDED** — `doxalabs` is the chosen GitHub handle.
-> The org and brand should be treated as a single identity: **Doxa Labs**.
+> **Status: DECIDED** — `spikenardco` is the chosen GitHub handle.
+> The org and brand should be treated as a single identity: **Spikenard**.
 
-### Decision: `doxalabs`
+### Decision: `spikenardco`
 
-**Chosen handle:** `doxalabs`
-**Display name:** Doxa Labs
-**GitHub:** `github.com/doxalabs`
-**Primary and only required domain:** `doxalabs.dev`
+**Chosen handle:** `spikenardco`
+**Display name:** Spikenard
+**GitHub:** `github.com/spikenardco`
+**Primary and only required domain:** `spikenard.dev`
 
-All public references should use `doxalabs.dev` as the canonical website URL. No alternate domain strategy is needed.
-
-> **Domain monitoring note (added 2026-02-25):**
-> `doxalabs.com` is currently registered by Doxalabs Creative Video Production (PT. Doxadigital Indonesia, Jakarta). Registered since 2006-09-12 via CV. Rumahweb Indonesia (IANA ID: 1675). **Expires: 2026-09-12.** Monitor for non-renewal — if the Indonesian company does not renew, the domain enters a redemption/deletion cycle (~30–75 days post-expiry) and could become available for registration by late 2026. Set a calendar reminder for **2026-10-01** to check availability. Use WHOIS lookup at `who.is/whois/doxalabs.com` to track status.
+All public references should use `spikenard.dev` as the canonical website URL. No alternate domain strategy is needed.
 
 ---
 
 ## 2. Brand Identity
 
-### Who Doxa Is
+### Who Spikenard Is
 
-Doxa is a builder collective — part open-source workshop, part product studio, part learning community. We build developer tools and platforms, rebuild tutorials in modern frameworks, create products (free and paid), and share what we learn.
+spikenard is a builder collective — part open-source workshop, part product studio, part learning community. We build developer tools and platforms, rebuild tutorials in modern frameworks, create products (free and paid), and share what we learn.
 
 ### Brand Personality
 
@@ -67,8 +64,8 @@ Doxa is a builder collective — part open-source workshop, part product studio,
 **Examples:**
 
 ```
-Good: "Doxa is a collective of builders. We make tools, share code, and learn in public."
-Bad:  "Doxa is a cutting-edge innovation hub leveraging modern paradigms to deliver solutions."
+Good: "spikenard is a collective of builders. We make tools, share code, and learn in public."
+Bad:  "spikenard is a cutting-edge innovation hub leveraging modern paradigms to deliver solutions."
 
 Good: "This started as a weekend project. Now it handles 10k requests/sec."
 Bad:  "Our enterprise-grade platform provides unparalleled scalability."
@@ -229,14 +226,12 @@ Spacing scale (rem):
 
 ### Concept
 
-The logo should be a **wordmark** ("doxa labs" or "doxalabs" styled as the logo). A monogram ("d" or "dl") can serve as a compact mark for favicons and avatars.
+The logo should be a **wordmark** ("spikenard" styled as the logo). A monogram ("s") can serve as a compact mark for favicons and avatars.
 
 ### Principles
 
-- **Lowercase.** `doxa labs` not `DOXA LABS` or `Doxa Labs` in the wordmark. Lowercase feels approachable and modern.
-- **Custom letterforms or a refined geometric sans.** The "o" and "a" can share visual rhythm. The space between "doxa" and "labs" should be intentional — either a clear word gap or a subtle weight/color shift.
-- **No icons baked into the wordmark.** Keep it typographic. Let the name carry the weight.
-- The monogram/icon mark can be a stylized `d` or `dl` in a square or rounded-square container.
+- **Lowercase.** `spikenard` not `SPIKENARD` or `Spikenard` in the wordmark. Lowercase feels approachable and modern.
+- **Custom letterforms or a refined geometric sans.** The "s" can have a distinctive rhythm.
 
 ### Logo Colors
 
@@ -257,7 +252,7 @@ Maintain a minimum clear space around the logo equal to the height of the "d" in
 
 ### 7.1 Tech Stack Recommendations
 
-For a brand like Doxa Labs, these align with the values of craft, performance, and modern tooling:
+For a brand like spikenard Labs, these align with the values of craft, performance, and modern tooling:
 
 | Layer | Recommendation | Why |
 |-------|---------------|-----|
@@ -385,25 +380,25 @@ export default {
 ```css
 :root {
   /* Brand */
-  --doxalabs-clay:      #B08968;
-  --doxalabs-umber:     #3E2C20;
-  --doxalabs-sand:      #DDB892;
-  --doxalabs-linen:     #F5EDE4;
-  --doxalabs-parchment: #FDFAF6;
-  --doxalabs-rust:      #C07040;
-  --doxalabs-sage:      #7D8B75;
-  --doxalabs-stone-blue:#6B7B8D;
-  --doxalabs-ember:     #B85C38;
+  --spikenard-clay:      #B08968;
+  --spikenard-umber:     #3E2C20;
+  --spikenard-sand:      #DDB892;
+  --spikenard-linen:     #F5EDE4;
+  --spikenard-parchment: #FDFAF6;
+  --spikenard-rust:      #C07040;
+  --spikenard-sage:      #7D8B75;
+  --spikenard-stone-blue:#6B7B8D;
+  --spikenard-ember:     #B85C38;
 
   /* Semantic tokens */
-  --color-bg:         var(--doxalabs-parchment);
-  --color-surface:    var(--doxalabs-linen);
+  --color-bg:         var(--spikenard-parchment);
+  --color-surface:    var(--spikenard-linen);
   --color-border:     #CCC4B8;
-  --color-text:       var(--doxalabs-umber);
+  --color-text:       var(--spikenard-umber);
   --color-text-muted: #7A6E62;
-  --color-accent:     var(--doxalabs-clay);
+  --color-accent:     var(--spikenard-clay);
   --color-accent-hover: #96744C;
-  --color-cta:        var(--doxalabs-rust);
+  --color-cta:        var(--spikenard-rust);
 }
 
 [data-theme="dark"] {
@@ -412,7 +407,7 @@ export default {
   --color-border:     #4A3F35;
   --color-text:       #F0ECE6;
   --color-text-muted: #968A7E;
-  --color-accent:     var(--doxalabs-sand);
+  --color-accent:     var(--spikenard-sand);
   --color-accent-hover: #E8C8A0;
   --color-cta:        #D4844C;
 }
@@ -439,7 +434,7 @@ export default {
 2. **Featured work** — 3–4 highlighted projects. Cards with name, one-line desc, tech tags.
 3. **What we do** — Short copy: tools, platforms, open-source, rebuilt tutorials.
 4. **Values/philosophy** — 3 pillars (e.g., "Crafted with care," "Open by default," "Built to last").
-5. **Footer** — GitHub link, socials, "Built by Doxa Labs" tagline.
+5. **Footer** — GitHub link, socials, "Built by Spikenard" tagline.
 
 ### Page Layout Rules
 
@@ -454,11 +449,11 @@ export default {
 
 ### GitHub Organization
 
-- **Handle:** `doxalabs`
-- **Display name:** Doxa Labs
-- **URL:** `github.com/doxalabs`
+- **Handle:** `spikenardco`
+- **Display name:** Spikenard
+- **URL:** `github.com/spikenardco`
 - **Bio:** "Crafted, not assembled. Open-source tools and platforms."
-- **Avatar:** Monogram mark (stylized `d` or `dl`) on `#3E2C20` background in `#F5EDE4`
+- **Avatar:** Monogram mark (stylized `s`) on `#3E2C20` background in `#F5EDE4`
 
 ### Open Graph / Social Cards
 

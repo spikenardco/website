@@ -27,7 +27,7 @@ This page tracks notable monimejs changes. Each release includes a short summary
 ## 2026-02-27 _(v0.0.3)_
 
 This release changes how the package is authored internally. The SDK source moved from TypeScript to JavaScript with JSDoc typing, while preserving the public developer experience for TypeScript users.
-> **[check the PR here](https://github.com/doxalabs/monimejs/pull/11)**
+> **[check the PR here](https://github.com/spikenardco/monimejs/pull/11)**
 
 #### Added
 

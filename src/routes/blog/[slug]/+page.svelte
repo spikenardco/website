@@ -13,7 +13,7 @@
 }} />
 
 <svelte:head>
-	<title>{data.meta.title} — Doxa Labs</title>
+	<title>{data.meta.title} — Spikenard</title>
 	<meta name="description" content={data.meta.excerpt} />
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content={data.meta.title} />

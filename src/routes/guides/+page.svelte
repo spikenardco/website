@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>Guides — Doxa Labs</title>
+	<title>Guides — Spikenard</title>
 	<meta
 		name="description"
 		content="Brand and design system guides used across Doxa projects, with small project-level adjustments."

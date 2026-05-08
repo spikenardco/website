@@ -15,10 +15,10 @@
 </script>
 
 <svelte:head>
-	<title>Projects — Doxa Labs</title>
+	<title>Projects — Spikenard</title>
 	<meta
 		name="description"
-		content="Open-source tools, platforms, and products — everything we're building at Doxa Labs. Some open, some paid. All crafted with care."
+		content="Open-source tools, platforms, and products — everything we're building at Spikenard. Some open, some paid. All crafted with care."
 	/>
 </svelte:head>
 
@@ -30,7 +30,7 @@
 				What we're building
 			</h1>
 			<p class="mt-6 text-lg text-neutral-600 max-w-prose leading-relaxed">
-				Open-source tools, platforms, and products — everything we're building at Doxa Labs. Some open, some paid. All crafted with care.
+				Open-source tools, platforms, and products — everything we're building at Spikenard. Some open, some paid. All crafted with care.
 			</p>
 		</div>
 	</div>

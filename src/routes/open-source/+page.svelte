@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-	<title>Open Source — Doxa Labs</title>
+	<title>Open Source — Spikenard</title>
 	<meta
 		name="description"
 		content="Our open-source philosophy, how we build in public, and how you can contribute."
@@ -123,7 +123,7 @@
 							>
 							or our
 							<a
-								href="https://github.com/doxalabs"
+								href="https://github.com/spikenardco"
 								target="_blank"
 								rel="noopener noreferrer"
 								class="text-clay underline decoration-clay/30 hover:decoration-clay">GitHub org</a
@@ -231,7 +231,7 @@
 				onboarding process. Just good code and good intentions.
 			</p>
 			<a
-				href="https://github.com/doxalabs"
+				href="https://github.com/spikenardco"
 				target="_blank"
 				rel="noopener noreferrer"
 				class="inline-flex items-center gap-2 mt-6 bg-clay text-parchment px-5 py-2.5 rounded-md font-medium hover:bg-clay/85 transition-colors duration-150 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-clay"

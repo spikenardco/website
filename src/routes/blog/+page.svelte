@@ -20,8 +20,8 @@
 </script>
 
 <svelte:head>
-	<title>Blog — Doxa Labs</title>
-	<meta name="description" content="Build logs, technical deep-dives, and lessons learned from the Doxa Labs team." />
+	<title>Blog — Spikenard</title>
+	<meta name="description" content="Build logs, technical deep-dives, and lessons learned from the Spikenard team." />
 </svelte:head>
 
 <section class="px-6 pt-24 pb-12 sm:pt-32 sm:pb-16">

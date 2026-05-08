@@ -7,7 +7,7 @@ authors: ['Team']
 draft: false
 ---
 
-Every Doxa Labs project starts as a public repository. Not after it's polished. Not after the README is perfect. The first commit is public. The ugly scaffolding is public. The commit messages that say "fix the thing" are public.
+Every Spikenard project starts as a public repository. Not after it's polished. Not after the README is perfect. The first commit is public. The ugly scaffolding is public. The commit messages that say "fix the thing" are public.
 
 This makes some people uncomfortable. We think that's the point.
 
@@ -29,7 +29,7 @@ Since going public-by-default, three things happened:
 
 **Better documentation.** When you know someone outside your team might read the code, you write better READMEs, clearer function names, and more useful comments. Not because documentation is fun, but because public code without docs is useless.
 
-**Unexpected contributions.** Our [flags.zig](https://github.com/doxalabs/flags.zig) library got its best error messages from a contributor we'd never met. They opened an issue describing a confusing error they hit, then submitted a PR that fixed it. That wouldn't have happened with a private repo.
+**Unexpected contributions.** Our [flags.zig](https://github.com/spikenardco/flags.zig) library got its best error messages from a contributor we'd never met. They opened an issue describing a confusing error they hit, then submitted a PR that fixed it. That wouldn't have happened with a private repo.
 
 **Accountability.** When our work is visible, we can't quietly abandon a project. If we said we'd build something, there's a public record. That's kept us focused on finishing what we start instead of chasing new ideas every week.
 

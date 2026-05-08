@@ -3,7 +3,7 @@ import { jobs } from '$lib/jobs';
 
 export const prerender = true;
 
-const site_url = 'https://doxalabs.dev';
+const site_url = 'https://spikenard.dev';
 
 const static_pages = ['', '/projects', '/blog', '/open-source', '/careers'];
 

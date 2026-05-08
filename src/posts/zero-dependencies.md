@@ -7,7 +7,7 @@ authors: ['Team']
 draft: true
 ---
 
-When we shipped [monimejs](https://github.com/doxalabs/monimejs), our Monime payment SDK, it had zero runtime dependencies. No axios. No node-fetch. No lodash. Just our code and the platform APIs.
+When we shipped [monimejs](https://github.com/spikenardco/monimejs), our Monime payment SDK, it had zero runtime dependencies. No axios. No node-fetch. No lodash. Just our code and the platform APIs.
 
 This wasn't an accident. It was a deliberate constraint, and it made the library better.
 

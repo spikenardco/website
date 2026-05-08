@@ -3,7 +3,7 @@
 	import { page } from '$app/state';
 	import { fly } from 'svelte/transition';
 
-	const site_url = 'https://doxalabs.dev';
+	const site_url = 'https://spikenard.dev';
 
 	let { children } = $props();
 	let menu_open = $state(false);
@@ -12,7 +12,7 @@
 <svelte:head>
 	<link rel="canonical" href="{site_url}{page.url.pathname}" />
 	<meta property="og:url" content="{site_url}{page.url.pathname}" />
-	<title>Doxa Labs</title>
+	<title>Spikenard</title>
 </svelte:head>
 
 <div class="min-h-screen flex flex-col bg-parchment text-umber">
@@ -33,7 +33,7 @@
 					<a href="/open-source" aria-current={page.url.pathname.startsWith('/open-source') ? 'page' : undefined} class="{page.url.pathname.startsWith('/open-source') ? 'text-clay' : 'text-neutral-600 hover:text-umber'} transition-colors duration-150">Open Source</a>
 				</div>
 				<a
-					href="https://github.com/doxalabs"
+					href="https://github.com/spikenardco"
 					target="_blank"
 					rel="noopener noreferrer"
 					class="text-neutral-500 hover:text-umber transition-colors duration-150"
@@ -134,11 +134,11 @@
 					<a href="/guides" class="hover:text-umber transition-colors duration-150">Guides</a>
 					<a href="/open-source" class="hover:text-umber transition-colors duration-150">Open Source</a>
 					<a href="/careers" class="hover:text-umber transition-colors duration-150">Careers</a>
-					<a href="https://github.com/doxalabs" target="_blank" rel="noopener noreferrer" class="hover:text-umber transition-colors duration-150">GitHub</a>
+					<a href="https://github.com/spikenardco" target="_blank" rel="noopener noreferrer" class="hover:text-umber transition-colors duration-150">GitHub</a>
 				</div>
 			</div>
 			<div class="mt-8 pt-8 border-t border-neutral-200 text-sm text-neutral-400">
-				<p>&copy; {new Date().getFullYear()} Doxa Labs. Crafted, not assembled.</p>
+				<p>&copy; {new Date().getFullYear()} Spikenard. Crafted, not assembled.</p>
 			</div>
 		</div>
 	</footer>

@@ -1,6 +1,6 @@
 # Blog Post Template
 
-How to write and publish a blog post on the Doxa Labs site.
+How to write and publish a blog post on the Spikenard site.
 
 ## Quick start
 
@@ -86,7 +86,7 @@ const x = comptime parse(input);
 Use full URLs for external links:
 
 ```markdown
-[flags.zig on GitHub](https://github.com/doxalabs/flags.zig)
+[flags.zig on GitHub](https://github.com/spikenardco/flags.zig)
 ```
 
 **Emphasis:** Use bold (`**text**`) for key phrases. Use italics sparingly. Never use ALL CAPS for emphasis.

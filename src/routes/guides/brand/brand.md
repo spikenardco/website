@@ -1,15 +1,15 @@
 ---
 title: 'Brand Guide'
-excerpt: 'Company-grade Doxa brand standards covering strategy, messaging, voice, visual identity, and governance.'
+excerpt: 'Company-grade Spikenard brand standards covering strategy, messaging, voice, visual identity, and governance.'
 ---
 
 ## Purpose
 
-This page is a curated summary of Doxa brand standards for fast day-to-day usage.
+This page is a curated summary of Spikenard brand standards for fast day-to-day usage.
 
 It intentionally borrows heavily from the canonical source:
 
-- `doxa-brand-guide.md` (repo root)
+- `spikenard-brand-guide.md` (repo root)
 
 When conflicts exist, treat the root guide as source of truth.
 
@@ -17,23 +17,23 @@ When conflicts exist, treat the root guide as source of truth.
 
 ### Name and Meaning
 
-**Doxa** (δόξα) means glory, radiance, and splendor.  
-Pronunciation: **DOK-sah** (rhymes with moxa).
+**Spikenard** — an ancient aromatic spice, precious and rare.  
+Pronunciation: **SPIKE-nard**.
 
-The name represents visible excellence through craft: work that is careful, useful, and durable.
+The name represents craft and excellence: work that is careful, useful, and durable.
 
 ### Official Naming
 
-- Display name: **Doxa Labs**
-- Domain: **doxalabs.dev**
-- GitHub org: **doxalabs**
-- Social/display fallback: **Doxa**
+- Display name: **Spikenard**
+- Domain: **spikenard.dev**
+- GitHub org: **spikenardco**
+- Social/display fallback: **Spikenard**
 
-Use **Doxa Labs** in first mention on formal pages, then **Doxa** where brevity improves readability.
+Use **Spikenard** for display everywhere.
 
 ### Positioning Statement
 
-**Doxa Labs builds developer-first products, open tools, and technical content with high standards of craft, practical utility, and long-term maintainability.**
+**Spikenard builds developer-first products, open tools, and technical content with high standards of craft, practical utility, and long-term maintainability.**
 
 ### Mission
 
@@ -45,7 +45,7 @@ Become a trusted studio brand where teams expect thoughtful products and clear e
 
 ### Brand Promise
 
-If Doxa ships it, it should feel intentional, usable, and technically credible.
+If Spikenard ships it, it should feel intentional, usable, and technically credible.
 
 ## 2. Audience and Market
 
@@ -62,7 +62,7 @@ If Doxa ships it, it should feel intentional, usable, and technically credible.
 
 ### Category and Competitive Frame
 
-Doxa competes in the overlap of:
+Spikenard competes in the overlap of:
 
 - Developer tools
 - Product studio execution
@@ -198,18 +198,11 @@ Rules:
 
 ### Primary Mark
 
-Wordmark-first identity: **doxa labs**.
-
-### Usage Rules
-
-- Maintain clear space around the mark.
-- Prefer Umber on light backgrounds and Linen on dark backgrounds.
-- Use Clay selectively as an accent or secondary lockup.
-- Do not distort, stretch, over-shadow, or apply decorative effects.
+Wordmark-first identity: **spikenard**.
 
 ### Favicon / Avatar
 
-Use a compact monogram (for example `d` or `dl`) that remains legible at small sizes.
+Use a compact monogram (for example `s`) that remains legible at small sizes.
 
 ## 8. UI and Product Experience Principles
 
@@ -222,7 +215,7 @@ Use a compact monogram (for example `d` or `dl`) that remains legible at small s
 
 ### Source of Truth
 
-`doxa-brand-guide.md` in repo root remains canonical when conflicts exist.
+`spikenard-brand-guide.md` in repo root remains canonical when conflicts exist.
 
 ### Curation Policy
 
@@ -256,11 +249,11 @@ Use a compact monogram (for example `d` or `dl`) that remains legible at small s
 
 ### About Blurb (Short)
 
-Doxa Labs is a builder collective creating developer tools, products, and technical content with a focus on craft, clarity, and long-term maintainability.
+Spikenard is a builder collective creating developer tools, products, and technical content with a focus on craft, clarity, and long-term maintainability.
 
 ### Product Intro (Short)
 
-Built by Doxa Labs, this product helps teams ship faster with practical workflows, clear defaults, and engineering-first documentation.
+Built by Spikenard, this product helps teams ship faster with practical workflows, clear defaults, and engineering-first documentation.
 
 ### Release Note Intro
 

@@ -3,10 +3,10 @@
 </script>
 
 <svelte:head>
-	<title>Careers — Doxa Labs</title>
+	<title>Careers — Spikenard</title>
 	<meta
 		name="description"
-		content="Join Doxa Labs. We're looking for people who care about craft, simplicity, and building tools that last."
+		content="Join Spikenard. We're looking for people who care about craft, simplicity, and building tools that last."
 	/>
 </svelte:head>
 
@@ -69,12 +69,12 @@
 				We're always interested in hearing from people who care about building good software. Drop
 				us a line at
 				<a
-					href="mailto:hello@doxalabs.dev"
+					href="mailto:hello@spikenard.dev"
 					class="text-clay underline decoration-clay/30 hover:decoration-clay"
 				>
-					hello@doxalabs.dev
+					hello@spikenard.dev
 				</a>
-				with what you're working on and why Doxa Labs interests you.
+				with what you're working on and why Spikenard interests you.
 			</p>
 		</div>
 	</div>

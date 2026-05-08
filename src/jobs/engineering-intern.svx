@@ -10,7 +10,7 @@ This isn't a "fetch coffee and watch" internship. You'll write real code that sh
 
 ## What you'll do
 
-- Contribute to one or more Doxa Labs open-source projects
+- Contribute to one or more Spikenard open-source projects
 - Fix bugs, improve error messages, and add test coverage
 - Write documentation for features you build
 - Participate in code reviews — both giving and receiving feedback

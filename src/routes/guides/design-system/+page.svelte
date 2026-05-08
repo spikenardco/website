@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-	<title>{title} — Doxa Labs</title>
+	<title>{title} — Spikenard</title>
 	<meta name="description" content={excerpt} />
 </svelte:head>
 

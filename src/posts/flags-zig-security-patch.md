@@ -27,7 +27,7 @@ const safe = result.flag("input").value(); // normalized (default)
 Anyone using flags.zig `< 0.4.1` who passes flag values directly to process execution. Update with:
 
 ```bash
-zig fetch --save "https://github.com/doxalabs/flags.zig/archive/v0.4.1.tar.gz"
+zig fetch --save "https://github.com/spikenardco/flags.zig/archive/v0.4.1.tar.gz"
 ```
 
 If you're just reading flag values for config or display, you're fine.

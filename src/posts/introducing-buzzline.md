@@ -75,6 +75,6 @@ We make money on the spread between what we charge and what the carrier charges 
 
 Buzzline is in active development. The core API — authentication, message sending, delivery tracking — is functional. We're currently working on webhook callbacks for delivery receipts, rate limiting per API key, and usage analytics.
 
-We're looking for early customers who want to try the API and give us honest feedback. If you're building something in Sierra Leone that needs SMS, [reach out](https://github.com/doxalabs).
+We're looking for early customers who want to try the API and give us honest feedback. If you're building something in Sierra Leone that needs SMS, [reach out](https://github.com/spikenardco).
 
 We're building Buzzline because we needed it ourselves — and because we think the region deserves a messaging API that takes developer experience as seriously as delivery reliability.

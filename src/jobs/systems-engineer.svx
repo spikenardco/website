@@ -6,7 +6,7 @@ excerpt: "Work on our Zig toolchain — flags.zig, tip, and whatever comes next.
 
 ## About the role
 
-You'll work on our Zig-based tools — [flags.zig](https://github.com/doxalabs/flags.zig), [tip](https://github.com/doxalabs/tip), and new projects as they come up. The work is low-level: argument parsing, memory management, cryptographic primitives, and CLI interfaces. You'll write code where correctness matters more than speed of delivery.
+You'll work on our Zig-based tools — [flags.zig](https://github.com/spikenardco/flags.zig), [tip](https://github.com/spikenardco/tip), and new projects as they come up. The work is low-level: argument parsing, memory management, cryptographic primitives, and CLI interfaces. You'll write code where correctness matters more than speed of delivery.
 
 ## What you'll do
 

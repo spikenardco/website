@@ -16,8 +16,8 @@
 </script>
 
 <svelte:head>
-	<title>Doxa Labs — Built with intention</title>
-	<meta name="description" content="Doxa Labs is a builder collective. We make tools, share code, and learn in public." />
+	<title>Spikenard — Built with intention</title>
+	<meta name="description" content="Spikenard is a builder collective. We make tools, share code, and learn in public." />
 </svelte:head>
 
 <!-- Hero -->
@@ -34,11 +34,11 @@
 				doxa (δόξα) labs — <span class="italic">glory, radiance, splendor</span>
 			</p>
 			<p class="mt-6 text-lg text-neutral-600 max-w-prose leading-relaxed">
-				Doxa Labs is a collective of builders who believe great software is made with care, shared generously, and refined relentlessly. We craft tools, platforms, and open-source projects.
+				Spikenard is a collective of builders who believe great software is made with care, shared generously, and refined relentlessly. We craft tools, platforms, and open-source projects.
 			</p>
 			<div class="mt-8 flex flex-wrap gap-4">
 				<a
-					href="https://github.com/doxalabs"
+					href="https://github.com/spikenardco"
 					target="_blank"
 					rel="noopener noreferrer"
 					class="inline-flex items-center gap-2 bg-clay text-parchment px-5 py-2.5 rounded-md font-medium hover:bg-clay/85 transition-colors duration-150 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-clay"
@@ -213,13 +213,13 @@
 			Follow our journey on GitHub. Star a repo, open an issue, or just say hello.
 		</p>
 		<a
-			href="https://github.com/doxalabs"
+			href="https://github.com/spikenardco"
 			target="_blank"
 			rel="noopener noreferrer"
 			class="inline-flex items-center gap-2 mt-8 bg-umber text-linen px-6 py-3 rounded-md font-medium hover:bg-neutral-800 transition-colors duration-150 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-umber"
 		>
 			<span class="icon-[mdi--github] size-5"></span>
-			Follow Doxa Labs
+			Follow Spikenard
 		</a>
 	</div>
 </section>

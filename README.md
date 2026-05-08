@@ -1,6 +1,6 @@
-# Doxa Labs Website
+# Spikenard Website
 
-The marketing and content site for [Doxa Labs](https://github.com/doxalabs), built with SvelteKit and Tailwind CSS v4.
+The marketing and content site for [Spikenard](https://github.com/spikenardco), built with SvelteKit and Tailwind CSS v4.
 
 ## Tech stack
 
@@ -49,4 +49,4 @@ npm run check
 
 ## Domain notes
 
-> **Monitor `doxalabs.com`** — currently held by PT. Doxadigital Indonesia (Jakarta, registered since 2006). **Expires 2026-09-12.** Check availability around 2026-10-01 via [WHOIS](https://who.is/whois/doxalabs.com) in case they don't renew.
+Spikenard uses `spikenard.dev` as the primary domain.

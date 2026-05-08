@@ -2,14 +2,14 @@ import { posts } from '$lib/posts';
 
 export const prerender = true;
 
-const site_url = 'https://doxalabs.dev';
+const site_url = 'https://spikenard.dev';
 
 export function GET() {
 	const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Doxa Labs</title>
-    <description>Build logs, technical deep-dives, and lessons learned from the Doxa Labs team.</description>
+    <title>Spikenard</title>
+    <description>Build logs, technical deep-dives, and lessons learned from the Spikenard team.</description>
     <link>${site_url}/blog</link>
     <atom:link href="${site_url}/rss.xml" rel="self" type="application/rss+xml"/>
     <language>en</language>

@@ -1,12 +1,12 @@
 ---
 title: Developer Advocate
 tags: ['Community', 'Content', 'Remote']
-excerpt: "Be the bridge between Doxa Labs and the developer community. Write tutorials, give talks, answer questions, and help people build things with our tools."
+excerpt: "Be the bridge between Spikenard and the developer community. Write tutorials, give talks, answer questions, and help people build things with our tools."
 ---
 
 ## About the role
 
-You'll help developers discover and use Doxa Labs tools. That means writing tutorials, creating example projects, answering questions on GitHub, and representing us at meetups or conferences. You're not selling anything — you're helping people solve problems with tools we've built.
+You'll help developers discover and use Spikenard tools. That means writing tutorials, creating example projects, answering questions on GitHub, and representing us at meetups or conferences. You're not selling anything — you're helping people solve problems with tools we've built.
 
 ## What you'll do
 

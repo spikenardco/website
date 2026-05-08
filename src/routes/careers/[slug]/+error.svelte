@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>{page.status} — Doxa Labs</title>
+	<title>{page.status} — Spikenard</title>
 </svelte:head>
 
 <section class="px-6 pt-24 pb-20 sm:pt-32 sm:pb-28">

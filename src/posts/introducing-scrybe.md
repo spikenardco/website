@@ -61,7 +61,7 @@ We designed the pricing to align with how schools operate. Schools bill per term
 
 Small decisions matter. Scrybe includes Sierra Leonean cities in the registration form. Prices are in New Leones, not dollars. SMS goes through providers that cover local carriers. The interface is simple enough that a school secretary with limited tech experience can use it after a 10-minute walkthrough.
 
-We also integrated with [Monime](https://github.com/doxalabs/monimejs) for payment processing — the same payments API we built our [TypeScript SDK](/blog/building-a-payment-sdk) for. One of the advantages of building a suite of products is that they can reinforce each other.
+We also integrated with [Monime](https://github.com/spikenardco/monimejs) for payment processing — the same payments API we built our [TypeScript SDK](/blog/building-a-payment-sdk) for. One of the advantages of building a suite of products is that they can reinforce each other.
 
 ## What we've learned so far
 
@@ -77,4 +77,4 @@ Building for schools taught us things we didn't expect:
 
 Scrybe is in active development. Grade entry, attendance, and payment tracking are functional. We're actively working on the student portal(so students can check their own results), PDF report card generation, and expanding the student/parent-facing features.
 
-If you run a school in Sierra Leone and want to try Scrybe, or if you're interested in following the project, [reach out to us](https://github.com/doxalabs). We're actively looking for pilot schools to refine the product with.
+If you run a school in Sierra Leone and want to try Scrybe, or if you're interested in following the project, [reach out to us](https://github.com/spikenardco). We're actively looking for pilot schools to refine the product with.

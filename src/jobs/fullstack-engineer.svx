@@ -6,7 +6,7 @@ excerpt: "Build and maintain web applications with SvelteKit and Go. You'll own 
 
 ## About the role
 
-You'll build web applications using SvelteKit on the frontend and Go on the backend. Projects like [microblog](https://github.com/doxalabs/microblog) are the kind of work you'll do — taking well-understood problems and implementing them with modern tools, cleanly and completely.
+You'll build web applications using SvelteKit on the frontend and Go on the backend. Projects like [microblog](https://github.com/spikenardco/microblog) are the kind of work you'll do — taking well-understood problems and implementing them with modern tools, cleanly and completely.
 
 ## What you'll do
 

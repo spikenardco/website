@@ -74,4 +74,4 @@ Orbis is in early development. The database schema, authentication system, patie
 
 Healthcare software is one of the highest-stakes domains you can build for. We're taking our time to get the foundations right — the data model, the privacy controls, the audit system — before rushing to add features.
 
-If you're a healthcare professional in Sierra Leone interested in moving your facility off paper records, or if you work in health technology and want to follow our progress, [reach out](https://github.com/doxalabs). We'd value your perspective as we build.
+If you're a healthcare professional in Sierra Leone interested in moving your facility off paper records, or if you work in health technology and want to follow our progress, [reach out](https://github.com/spikenardco). We'd value your perspective as we build.

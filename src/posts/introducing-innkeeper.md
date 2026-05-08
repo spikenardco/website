@@ -65,4 +65,4 @@ For operators, the differentiator is simplicity and cost. We're not charging 15-
 
 InnKeeper is in active development. The core architecture is in place — multi-tenant data model, authentication for all user types, property and room management, the booking data model. We're currently building out the guest-facing search and booking flow, which is the critical path to launch.
 
-If you operate a hotel, guesthouse, or inn in Sierra Leone and want to be part of the first wave of listed properties, [get in touch](https://github.com/doxalabs). We're looking for operators who want to help shape the product.
+If you operate a hotel, guesthouse, or inn in Sierra Leone and want to be part of the first wave of listed properties, [get in touch](https://github.com/spikenardco). We're looking for operators who want to help shape the product.

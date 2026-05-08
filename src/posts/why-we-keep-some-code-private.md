@@ -57,4 +57,4 @@ But transparency doesn't mean exposing everything. A carpenter can show you thei
 
 That's the balance we aim for. Open by default, private when it matters. Generous with our tools, protective of our clients. Honest about what we share and what we don't.
 
-If a project on our site doesn't have a link, now you know why. And if you want to see the code we do share, [it's all on GitHub](https://github.com/doxalabs).
+If a project on our site doesn't have a link, now you know why. And if you want to see the code we do share, [it's all on GitHub](https://github.com/spikenardco).

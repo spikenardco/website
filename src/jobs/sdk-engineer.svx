@@ -6,7 +6,7 @@ excerpt: "Design and maintain developer-facing libraries like monimejs. You care
 
 ## About the role
 
-You'll design and maintain developer-facing libraries like [monimejs](https://github.com/doxalabs/monimejs). The work is about API ergonomics, type safety, and making other developers' lives easier. You'll spend as much time thinking about how something should be called as how it should be implemented.
+You'll design and maintain developer-facing libraries like [monimejs](https://github.com/spikenardco/monimejs). The work is about API ergonomics, type safety, and making other developers' lives easier. You'll spend as much time thinking about how something should be called as how it should be implemented.
 
 ## What you'll do
 
