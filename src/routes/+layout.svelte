@@ -29,7 +29,6 @@
 				<div class="hidden sm:flex gap-8 text-sm font-medium">
 					<a href="/projects" aria-current={page.url.pathname.startsWith('/projects') ? 'page' : undefined} class="{page.url.pathname.startsWith('/projects') ? 'text-clay' : 'text-neutral-600 hover:text-umber'} transition-colors duration-150">Projects</a>
 					<a href="/blog" aria-current={page.url.pathname.startsWith('/blog') ? 'page' : undefined} class="{page.url.pathname.startsWith('/blog') ? 'text-clay' : 'text-neutral-600 hover:text-umber'} transition-colors duration-150">Blog</a>
-					<a href="/guides" aria-current={page.url.pathname.startsWith('/guides') ? 'page' : undefined} class="{page.url.pathname.startsWith('/guides') ? 'text-clay' : 'text-neutral-600 hover:text-umber'} transition-colors duration-150">Guides</a>
 					<a href="/open-source" aria-current={page.url.pathname.startsWith('/open-source') ? 'page' : undefined} class="{page.url.pathname.startsWith('/open-source') ? 'text-clay' : 'text-neutral-600 hover:text-umber'} transition-colors duration-150">Open Source</a>
 				</div>
 				<a
@@ -88,17 +87,6 @@
 					<span class="icon-[lucide--code] size-4"></span>
 					OSS
 				</a>
-				<a
-					href="/guides"
-					onclick={() => (menu_open = false)}
-					aria-current={page.url.pathname.startsWith('/guides') ? 'page' : undefined}
-					class="flex items-center gap-2 rounded-full px-4 py-2 bg-parchment border border-neutral-200 shadow-md text-sm font-medium transition-colors duration-150 {page.url.pathname.startsWith('/guides') ? 'text-clay' : 'text-neutral-600 hover:text-umber'}"
-					in:fly={{ y: 16, duration: 250, delay: 150 }}
-					out:fly={{ y: 16, duration: 150 }}
-				>
-					<span class="icon-[lucide--book-open] size-4"></span>
-					Guides
-				</a>
 			</nav>
 		{/if}
 
@@ -131,7 +119,6 @@
 				<div class="flex flex-wrap gap-x-8 gap-y-2 text-sm text-neutral-500">
 					<a href="/projects" class="hover:text-umber transition-colors duration-150">Projects</a>
 					<a href="/blog" class="hover:text-umber transition-colors duration-150">Blog</a>
-					<a href="/guides" class="hover:text-umber transition-colors duration-150">Guides</a>
 					<a href="/open-source" class="hover:text-umber transition-colors duration-150">Open Source</a>
 					<a href="/careers" class="hover:text-umber transition-colors duration-150">Careers</a>
 					<a href="https://github.com/spikenardco" target="_blank" rel="noopener noreferrer" class="hover:text-umber transition-colors duration-150">GitHub</a>

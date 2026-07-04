@@ -4,7 +4,7 @@
 
 ## 1. The Name
 
-**Spikenard** (νάρδος) — A precious aromatic oil from the Himalayas, mentioned in the Bible when Mary of Bethany anointed Jesus' feet (John 12:3). It represents something precious poured out in worship — worthy of the King.
+**Spikenard** (νάρδος) — A precious aromatic oil from the Himalayas, mentioned in the Bible when Mary of Bethany anointed Jesus' feet (John 12:3). It represents something precious poured out in worship, worthy of the King.
 
 **Pronunciation:** SPIKE-nard
 
@@ -16,7 +16,7 @@
 
 > Spikenard is a collective of builders who believe software should be crafted with care and shared generously.
 >
-> The name comes from the costly oil poured out by Mary in the Gospels — an act of devotion marked by intention, beauty, and sacrifice. Its fragrance filled the room.
+> The name comes from the costly oil poured out by Mary in the Gospels. It was an act of devotion marked by intention, beauty, and sacrifice. Its fragrance filled the room.
 >
 > We carry that same philosophy into our work: build carefully, refine relentlessly, and create things worthy of being shared.
 >
@@ -81,7 +81,7 @@ Bad:  "Our enterprise-grade platform provides unparalleled scalability."
 
 ## 3. Color System
 
-The palette is rooted in natural earth tones — clay, sand, warm stone. It communicates craftsmanship, warmth, and quiet sophistication without being cold or sterile.
+The palette is rooted in natural earth tones: clay, sand, warm stone. It communicates craftsmanship, warmth, and quiet sophistication without being cold or sterile.
 
 ### Primary Colors
 
