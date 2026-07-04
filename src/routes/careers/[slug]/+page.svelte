@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { resolve } from '$app/paths';
 	import type { PageProps } from './$types';
 
 	let { data }: PageProps = $props();
@@ -13,7 +14,7 @@
 	<div class="max-w-[75rem] mx-auto">
 		<div class="max-w-2xl">
 			<a
-				href="/careers"
+				href={resolve('/careers')}
 				class="inline-flex items-center gap-1 text-sm text-neutral-400 hover:text-umber transition-colors duration-150 mb-8"
 			>
 				<span class="icon-[lucide--chevron-left] size-4"></span>
@@ -21,7 +22,7 @@
 			</a>
 
 			<div class="flex flex-wrap gap-2 mb-4">
-				{#each data.meta.tags as tag}
+				{#each data.meta.tags as tag (tag)}
 					<span class="text-xs font-medium bg-neutral-100 text-neutral-600 px-2.5 py-1 rounded-md"
 						>{tag}</span
 					>

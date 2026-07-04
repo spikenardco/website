@@ -1,17 +1,8 @@
 <script lang="ts">
-	import { projects, group_by_category } from '$lib/projects';
-	import type { Project } from '$lib/projects';
+	import { resolve } from '$app/paths';
+	import { color_classes, projects, group_by_category } from '$lib/projects';
 
 	const grouped = group_by_category(projects);
-
-	const color_classes: Record<Project['color'], { bg: string; text: string }> = {
-		clay: { bg: 'bg-clay/10', text: 'text-clay' },
-		sage: { bg: 'bg-sage/15', text: 'text-sage' },
-		rust: { bg: 'bg-rust/10', text: 'text-rust' },
-		'stone-blue': { bg: 'bg-stone-blue/15', text: 'text-stone-blue' },
-		neutral: { bg: 'bg-neutral-500/10', text: 'text-neutral-400' },
-		ember: { bg: 'bg-ember/10', text: 'text-ember' }
-	};
 </script>
 
 <svelte:head>
@@ -37,7 +28,7 @@
 </section>
 
 {#each grouped as [category, items], i (category)}
-	<section class="px-6 py-12 sm:py-16" class:pb-24={i === grouped.length - 1}>
+	<section class="px-6 py-12 sm:py-16 {i === grouped.length - 1 ? 'pb-24' : ''}">
 		<div class="max-w-[75rem] mx-auto">
 			<h2 class="text-sm font-medium text-neutral-400 uppercase tracking-wide mb-6">
 				{category}

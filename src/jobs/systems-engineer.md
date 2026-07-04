@@ -1,6 +1,7 @@
 ---
 title: Systems Engineer
 tags: ['Zig', 'Systems', 'Remote']
+draft: false
 excerpt: "Work on our Zig toolchain — flags.zig, tip, and whatever comes next. You'll write low-level code that prioritizes correctness and simplicity over abstraction."
 ---
 

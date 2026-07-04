@@ -4,8 +4,8 @@ import adapter from '@sveltejs/adapter-static';
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: { adapter: adapter({ strict: false }) },
-	preprocess: [mdsvex({ extensions: ['.md', '.svx'] })],
-	extensions: ['.svelte', '.svx', '.md']
+	preprocess: [mdsvex({ extensions: ['.md'] })],
+	extensions: ['.svelte', '.md']
 };
 
 export default config;

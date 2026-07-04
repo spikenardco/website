@@ -3,6 +3,7 @@ export interface JobMeta {
 	title: string;
 	tags: string[];
 	excerpt: string;
+	draft?: boolean;
 }
 
 function get_jobs_meta(): JobMeta[] {
@@ -11,10 +12,12 @@ function get_jobs_meta(): JobMeta[] {
 		{ eager: true }
 	);
 
-	return Object.entries(modules).map(([path, module]) => {
-		const slug = path.split('/').pop()!.replace('.md', '');
-		return { slug, ...module.metadata };
-	});
+	return Object.entries(modules)
+		.map(([path, module]) => {
+			const slug = path.split('/').pop()!.replace('.md', '');
+			return { slug, ...module.metadata };
+		})
+		.filter((job) => !job.draft);
 }
 
 export const jobs = get_jobs_meta();

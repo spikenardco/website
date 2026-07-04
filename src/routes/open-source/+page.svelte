@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { resolve } from '$app/paths';
 	import { projects } from '$lib/projects';
 	const oss_projects = projects.filter((p) => p.opensource && p.featured);
 </script>
@@ -60,7 +61,7 @@
 				<p class="mt-2 text-neutral-500 text-sm">A few things we've open-sourced.</p>
 			</div>
 			<a
-				href="/projects"
+				href={resolve('/projects')}
 				class="hidden sm:inline-flex items-center gap-1 text-sm font-medium text-neutral-500 hover:text-umber transition-colors duration-150"
 			>
 				View all
@@ -117,7 +118,7 @@
 						<h3 class="text-umber font-semibold">Pick a project</h3>
 						<p class="text-neutral-500 mt-1 text-sm leading-relaxed">
 							Browse our <a
-								href="/projects"
+								href={resolve('/projects')}
 								class="text-clay underline decoration-clay/30 hover:decoration-clay"
 								>projects page</a
 							>
@@ -236,7 +237,7 @@
 				rel="noopener noreferrer"
 				class="inline-flex items-center gap-2 mt-6 bg-clay text-parchment px-5 py-2.5 rounded-md font-medium hover:bg-clay/85 transition-colors duration-150 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-clay"
 			>
-				<span class="icon-[mdi--github] size-4"></span>
+				<span class="icon-[lucide--github] size-4"></span>
 				Browse repos on GitHub
 			</a>
 		</div>

@@ -1,3 +1,12 @@
+export const color_classes: Record<Project['color'], { bg: string; text: string }> = {
+	clay: { bg: 'bg-clay/10', text: 'text-clay' },
+	sage: { bg: 'bg-sage/15', text: 'text-sage' },
+	rust: { bg: 'bg-rust/10', text: 'text-rust' },
+	'stone-blue': { bg: 'bg-stone-blue/15', text: 'text-stone-blue' },
+	neutral: { bg: 'bg-neutral-500/10', text: 'text-neutral-400' },
+	ember: { bg: 'bg-ember/10', text: 'text-ember' }
+};
+
 export interface Project {
 	title: string;
 	description: string;

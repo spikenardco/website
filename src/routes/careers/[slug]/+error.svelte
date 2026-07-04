@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { resolve } from '$app/paths';
 	import { page } from '$app/state';
 </script>
 
@@ -23,7 +24,7 @@
 
 			<div class="mt-10">
 				<a
-					href="/careers"
+					href={resolve('/careers')}
 					class="inline-flex items-center gap-2 bg-clay text-parchment px-5 py-2.5 rounded-md font-medium hover:bg-clay/85 transition-colors duration-150 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-clay"
 				>
 					<span class="icon-[lucide--briefcase] size-4"></span>

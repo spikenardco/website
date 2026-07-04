@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { resolve } from '$app/paths';
 	import { format_date } from '$lib/posts';
 	import type { PageProps } from './$types';
 
@@ -29,7 +30,7 @@
 	<div class="max-w-[75rem] mx-auto">
 		<div class="max-w-2xl">
 			<!-- Back link -->
-			<a href="/blog" class="inline-flex items-center gap-1 text-sm text-neutral-400 hover:text-umber transition-colors duration-150 mb-8">
+			<a href={resolve('/blog')} class="inline-flex items-center gap-1 text-sm text-neutral-400 hover:text-umber transition-colors duration-150 mb-8">
 				<span class="icon-[lucide--chevron-left] size-4"></span>
 				All posts
 			</a>
@@ -69,7 +70,7 @@
 			<!-- Footer -->
 			<div class="mt-16 pt-8 border-t border-neutral-200 flex items-start justify-between gap-6">
 				{#if data.prev}
-					<a href="/blog/{data.prev.slug}" class="group flex flex-col gap-1 min-w-0">
+					<a href={resolve('/blog/[slug]', { slug: data.prev.slug })} class="group flex flex-col gap-1 min-w-0">
 						<span class="inline-flex items-center gap-1 text-xs text-neutral-400">
 							<span class="icon-[lucide--chevron-left] size-3"></span>
 							Previous
@@ -80,7 +81,7 @@
 					<div></div>
 				{/if}
 				{#if data.next}
-					<a href="/blog/{data.next.slug}" class="group flex flex-col items-end gap-1 min-w-0 text-right">
+					<a href={resolve('/blog/[slug]', { slug: data.next.slug })} class="group flex flex-col items-end gap-1 min-w-0 text-right">
 						<span class="inline-flex items-center gap-1 text-xs text-neutral-400">
 							Next
 							<span class="icon-[lucide--chevron-right] size-3"></span>

@@ -1,18 +1,9 @@
 <script lang="ts">
-	import { projects } from '$lib/projects';
-	import type { Project } from '$lib/projects';
+	import { resolve } from '$app/paths';
+	import { color_classes, projects } from '$lib/projects';
 	import TopographicLines from '$lib/components/hero-backgrounds/TopographicLines.svelte';
 
 	const featured = projects.filter((p) => p.featured);
-
-	const color_classes: Record<Project['color'], { bg: string; text: string }> = {
-		clay: { bg: 'bg-clay/10', text: 'text-clay' },
-		sage: { bg: 'bg-sage/15', text: 'text-sage' },
-		rust: { bg: 'bg-rust/10', text: 'text-rust' },
-		'stone-blue': { bg: 'bg-stone-blue/15', text: 'text-stone-blue' },
-		neutral: { bg: 'bg-neutral-500/10', text: 'text-neutral-400' },
-		ember: { bg: 'bg-ember/10', text: 'text-ember' }
-	};
 </script>
 
 <svelte:head>
@@ -43,7 +34,7 @@
 					rel="noopener noreferrer"
 					class="inline-flex items-center gap-2 bg-clay text-parchment px-5 py-2.5 rounded-md font-medium hover:bg-clay/85 transition-colors duration-150 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-clay"
 				>
-					<span class="icon-[mdi--github] size-5"></span>
+					<span class="icon-[lucide--github] size-5"></span>
 					View on GitHub
 				</a>
 				<a
@@ -65,7 +56,7 @@
 				<p class="text-clay font-medium text-sm tracking-wide uppercase mb-2">Featured Work</p>
 				<h2 class="text-3xl font-semibold text-umber tracking-tight">What we're building</h2>
 			</div>
-			<a href="/projects" class="hidden sm:inline-flex items-center gap-1 text-sm font-medium text-neutral-500 hover:text-umber transition-colors duration-150">
+			<a href={resolve('/projects')} class="hidden sm:inline-flex items-center gap-1 text-sm font-medium text-neutral-500 hover:text-umber transition-colors duration-150">
 				View all
 				<span class="icon-[lucide--chevron-right] size-4"></span>
 			</a>
@@ -135,7 +126,7 @@
 			{/each}
 		</div>
 		<div class="mt-8 sm:hidden">
-			<a href="/projects" class="inline-flex items-center gap-1 text-sm font-medium text-neutral-500 hover:text-umber transition-colors duration-150">
+			<a href={resolve('/projects')} class="inline-flex items-center gap-1 text-sm font-medium text-neutral-500 hover:text-umber transition-colors duration-150">
 				View all projects
 				<span class="icon-[lucide--chevron-right] size-4"></span>
 			</a>
@@ -223,7 +214,7 @@
 			rel="noopener noreferrer"
 			class="inline-flex items-center gap-2 mt-8 bg-umber text-linen px-6 py-3 rounded-md font-medium hover:bg-neutral-800 transition-colors duration-150 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-umber"
 		>
-			<span class="icon-[mdi--github] size-5"></span>
+			<span class="icon-[lucide--github] size-5"></span>
 			Follow Spikenard
 		</a>
 	</div>

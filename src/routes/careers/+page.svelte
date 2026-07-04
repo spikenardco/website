@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { resolve } from '$app/paths';
 	import { jobs } from '$lib/jobs';
 </script>
 
@@ -30,7 +31,7 @@
 		<div class="max-w-2xl space-y-6">
 			{#each jobs as job (job.slug)}
 				<a
-					href="/careers/{job.slug}"
+					href={resolve('/careers/[slug]', { slug: job.slug })}
 					class="group block border border-neutral-200 rounded-lg p-6 hover:border-clay/40 transition-colors duration-150"
 				>
 					<div class="flex items-start justify-between gap-4">
@@ -44,7 +45,7 @@
 								{job.excerpt}
 							</p>
 							<div class="flex flex-wrap gap-2 mt-4">
-								{#each job.tags as tag}
+								{#each job.tags as tag (tag)}
 									<span
 										class="text-xs font-medium bg-neutral-100 text-neutral-600 px-2.5 py-1 rounded-md"
 									>
