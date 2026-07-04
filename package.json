@@ -1,7 +1,7 @@
 {
-	"name": "website",
+	"name": "spikenard",
 	"private": true,
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"type": "module",
 	"scripts": {
 		"dev": "vite dev",
@@ -12,17 +12,17 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
 	},
 	"devDependencies": {
-		"@iconify-json/lucide": "^1.2.105",
+		"@iconify-json/lucide": "^1.2.116",
 		"@iconify/tailwind4": "^1.2.3",
 		"@sveltejs/adapter-static": "^3.0.10",
-		"@sveltejs/kit": "^2.59.1",
-		"@tailwindcss/typography": "^0.5.19",
-		"@tailwindcss/vite": "^4.2.4",
+		"@sveltejs/kit": "^2.69.1",
+		"@tailwindcss/typography": "^0.5.20",
+		"@tailwindcss/vite": "^4.3.2",
 		"mdsvex": "^0.12.7",
-		"svelte": "^5.55.5",
-		"svelte-check": "^4.4.8",
-		"tailwindcss": "^4.2.4",
+		"svelte": "^5.56.4",
+		"svelte-check": "^4.7.1",
+		"tailwindcss": "^4.3.2",
 		"typescript": "^6.0.3",
-		"vite": "^8.0.11"
+		"vite": "^8.1.3"
 	}
 }
