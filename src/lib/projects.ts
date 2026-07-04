@@ -35,6 +35,7 @@ export const projects: Project[] = [
 		type: 'Platform',
 		icon: 'icon-[lucide--message-square]',
 		color: 'ember',
+		show: false,
 		featured: false,
 		opensource: false
 	},
@@ -45,6 +46,7 @@ export const projects: Project[] = [
 		tags: ['SvelteKit', 'Drizzle', 'PostgreSQL', 'SaaS'],
 		category: 'Products',
 		type: 'Platform',
+		link: 'https://scrybe.arcadiasl.org',
 		icon: 'icon-[lucide--book-open]',
 		color: 'sage',
 		featured: true,
@@ -59,6 +61,7 @@ export const projects: Project[] = [
 		type: 'Platform',
 		icon: 'icon-[lucide--building]',
 		color: 'stone-blue',
+		show: false,
 		featured: false,
 		opensource: false
 	},
@@ -71,6 +74,34 @@ export const projects: Project[] = [
 		type: 'Platform',
 		icon: 'icon-[lucide--heart-pulse]',
 		color: 'rust',
+		show: false,
+		featured: false,
+		opensource: false
+	},
+	{
+		title: 'Avodah',
+		description:
+			'Multi-tenant payroll and HR platform for Sierra Leone. Handles NASSIT and PAYE compliance, generates payslips and offer letters, and tracks leave.',
+		tags: ['SvelteKit', 'Drizzle', 'PostgreSQL', 'HR'],
+		category: 'Products',
+		type: 'Platform',
+		icon: 'icon-[lucide--scroll-text]',
+		color: 'stone-blue',
+		show: false,
+		featured: false,
+		opensource: false
+	},
+	{
+		title: 'Arcadia',
+		description:
+			'Tournament and gaming platform for Sierra Leone. Players register, pay entry fees via mobile money, compete in brackets, and unlock badges.',
+		tags: ['SvelteKit', 'SQLite', 'Monime', 'Gaming'],
+		category: 'Products',
+		type: 'Platform',
+		link: 'https://arcadiasl.org',
+		icon: 'icon-[lucide--gamepad-2]',
+		color: 'ember',
+		show: true,
 		featured: false,
 		opensource: false
 	},
@@ -111,6 +142,18 @@ export const projects: Project[] = [
 		icon: 'icon-[lucide--lock]',
     color: 'rust',
     featured: true,
+		opensource: true
+	},
+	{
+		title: 'Spotfinder',
+		description:
+			'API-first directory of places and institutions in Sierra Leone. Search by category, district, or nearby location. Built with Go and SQLite.',
+		tags: ['Go', 'SQLite', 'API'],
+		category: 'Tools & Libraries',
+		type: 'Tool',
+		icon: 'icon-[lucide--map-pin]',
+		color: 'rust',
+		featured: false,
 		opensource: true
 	},
 	{
