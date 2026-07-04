@@ -20,6 +20,7 @@ export interface Project {
 	link?: string;
 	icon: string;
 	color: 'clay' | 'sage' | 'rust' | 'stone-blue' | 'neutral' | 'ember';
+	show?: boolean;
 	featured?: boolean;
 	opensource?: boolean;
 }
@@ -40,8 +41,8 @@ export const projects: Project[] = [
 	{
 		title: 'Scrybe',
 		description:
-			'A multi-tenant school management platform for Sierra Leone. Grades, attendance, payments, announcements, and parent communication — all in one place. Built with SvelteKit and SQLite.',
-		tags: ['SvelteKit', 'Education', 'SaaS'],
+			'A multi-tenant school management platform for Sierra Leone. Grades, attendance, payments, announcements, and parent communication all in one place. Built with SvelteKit, Drizzle ORM, and PostgreSQL.',
+		tags: ['SvelteKit', 'Drizzle', 'PostgreSQL', 'SaaS'],
 		category: 'Products',
 		type: 'Platform',
 		icon: 'icon-[lucide--book-open]',
@@ -64,8 +65,8 @@ export const projects: Project[] = [
 	{
 		title: 'Orbis',
 		description:
-			'A unified patient records system for Sierra Leone\'s healthcare sector. Multi-facility record sharing, appointment scheduling, SOAP notes, and audit trails. Built with Go and PostgreSQL.',
-		tags: ['Go', 'Healthcare', 'SaaS'],
+			"A unified patient records system for Sierra Leone's healthcare sector. Multi-facility record sharing, appointment scheduling, SOAP notes, and audit trails. Available as a web app, desktop client, and mobile app. Built with Go, SvelteKit, and PostgreSQL.",
+		tags: ['Go', 'Chi', 'PostgreSQL', 'SvelteKit', 'Healthcare'],
 		category: 'Products',
 		type: 'Platform',
 		icon: 'icon-[lucide--heart-pulse]',

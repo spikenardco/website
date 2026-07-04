@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
 	import { projects } from '$lib/projects';
-	const oss_projects = projects.filter((p) => p.opensource && p.featured);
+	const oss_projects = projects.filter((p) => p.opensource && p.featured && p.show !== false);
 </script>
 
 <svelte:head>

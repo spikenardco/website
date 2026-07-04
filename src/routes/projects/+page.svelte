@@ -2,7 +2,7 @@
 	import { resolve } from '$app/paths';
 	import { color_classes, projects, group_by_category } from '$lib/projects';
 
-	const grouped = group_by_category(projects);
+	const grouped = group_by_category(projects.filter((p) => p.show !== false));
 </script>
 
 <svelte:head>

@@ -3,7 +3,7 @@
 	import { color_classes, projects } from '$lib/projects';
 	import TopographicLines from '$lib/components/hero-backgrounds/TopographicLines.svelte';
 
-	const featured = projects.filter((p) => p.featured);
+	const featured = projects.filter((p) => p.featured && p.show !== false);
 </script>
 
 <svelte:head>
