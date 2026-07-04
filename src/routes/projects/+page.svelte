@@ -28,7 +28,7 @@
 </section>
 
 {#each grouped as [category, items], i (category)}
-	<section class="px-6 py-12 sm:py-16 {i === grouped.length - 1 ? 'pb-24' : ''}">
+	<section class={['px-6 py-12 sm:py-16', i === grouped.length - 1 && 'pb-24']}>
 		<div class="max-w-[75rem] mx-auto">
 			<h2 class="text-sm font-medium text-neutral-400 uppercase tracking-wide mb-6">
 				{category}
