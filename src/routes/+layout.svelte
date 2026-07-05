@@ -23,7 +23,7 @@
 	<nav class="bg-parchment/80 backdrop-blur-sm border-b border-neutral-200 sticky top-0 z-50">
 		<div class="max-w-[75rem] mx-auto px-6 h-16 flex items-center justify-between">
 			<a href={resolve('/')} class="flex items-center gap-2 text-umber font-semibold text-lg tracking-tight">
-				<img src="/logo-mark.png" alt="" class="size-8" />
+				<img src="/logo.png" alt="" class="size-8" />
 				Spikenard
 			</a>
 			<div class="flex items-center gap-8">
@@ -112,7 +112,7 @@
 			<div class="flex flex-col sm:flex-row justify-between items-start gap-8">
 				<div>
 					<p class="flex items-center gap-2 text-umber font-semibold tracking-tight">
-						<img src="/logo-mark.png" alt="" class="size-6" />
+						<img src="/logo.png" alt="" class="size-6" />
 						Spikenard
 					</p>
 					<p class="text-neutral-500 text-sm mt-1">Built with intention.</p>
