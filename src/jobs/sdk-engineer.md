@@ -1,7 +1,7 @@
 ---
 title: SDK Engineer
 tags: ['TypeScript', 'API Design', 'Remote']
-draft: false
+draft: true
 excerpt: "Design and maintain developer-facing libraries like monimejs. You care about API ergonomics, type safety, zero dependencies, and documentation that doesn't waste people's time."
 ---
 

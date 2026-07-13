@@ -1,7 +1,7 @@
 ---
 title: Fullstack Engineer
 tags: ['SvelteKit', 'Go', 'Remote']
-draft: false
+draft: true
 excerpt: "Build and maintain web applications with SvelteKit and Go. You'll own features end-to-end — from database schema to UI — with a bias toward shipping small, working increments."
 ---
 

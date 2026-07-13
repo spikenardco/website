@@ -1,7 +1,7 @@
 ---
 title: Technical Writer
 tags: ['Documentation', 'Developer Experience', 'Remote']
-draft: false
+draft: true
 excerpt: "Write docs, guides, and tutorials for our open-source tools. You turn complex technical decisions into clear prose that helps developers get things done."
 ---
 

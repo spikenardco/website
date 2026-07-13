@@ -1,7 +1,7 @@
 ---
 title: Developer Advocate
 tags: ['Community', 'Content', 'Remote']
-draft: false
+draft: true
 excerpt: "Be the bridge between Spikenard and the developer community. Write tutorials, give talks, answer questions, and help people build things with our tools."
 ---
 
