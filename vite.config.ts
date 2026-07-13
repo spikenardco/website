@@ -8,7 +8,7 @@ export default defineConfig({
 	plugins: [
 		tailwindcss(),
 		sveltekit({
-			kit: { adapter: adapter({ strict: false }) },
+			adapter: adapter({ strict: false }),
 			preprocess: [mdsvex({ extensions: ['.md'] })],
 			extensions: ['.svelte', '.md']
 		})
