@@ -193,7 +193,9 @@
 					<h3 class="text-umber font-semibold text-sm">Clarity over cleverness</h3>
 					<p class="text-neutral-500 mt-2 text-sm leading-relaxed">
 						Code that's easy to read is more valuable than code that's impressive. If a reviewer has
-						to puzzle over what your code does, simplify it.
+						to puzzle over what your code does, simplify it. See our
+						<a href="/guides" class="text-clay underline decoration-clay/30 hover:decoration-clay">coding conventions</a>
+						for language-specific standards.
 					</p>
 				</div>
 				<div class="border border-neutral-200 rounded-lg p-5">

@@ -125,6 +125,7 @@
 					<a href={resolve('/projects')} class="hover:text-umber transition-colors duration-150">Projects</a>
 					<a href={resolve('/blog')} class="hover:text-umber transition-colors duration-150">Blog</a>
 					<a href={resolve('/open-source')} class="hover:text-umber transition-colors duration-150">Open Source</a>
+					<a href={resolve('/guides')} class="hover:text-umber transition-colors duration-150">Guides</a>
 					<a href={resolve('/careers')} class="hover:text-umber transition-colors duration-150">Careers</a>
 					<a href="https://github.com/spikenardco" target="_blank" rel="noopener noreferrer" class="hover:text-umber transition-colors duration-150">GitHub</a>
 				</div>

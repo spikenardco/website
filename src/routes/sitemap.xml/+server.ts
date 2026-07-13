@@ -1,11 +1,12 @@
 import { posts } from '$lib/posts';
 import { jobs } from '$lib/jobs';
+import { guides } from '$lib/guides';
 
 export const prerender = true;
 
 const site_url = 'https://spikenard.dev';
 
-const static_pages = ['', '/projects', '/blog', '/open-source', '/careers'];
+const static_pages = ['', '/projects', '/blog', '/open-source', '/careers', '/guides'];
 
 export function GET() {
 	const pages = [
@@ -19,6 +20,10 @@ export function GET() {
 		})),
 		...jobs.map((job) => ({
 			loc: `${site_url}/careers/${job.slug}`,
+			lastmod: new Date().toISOString().split('T')[0]
+		})),
+		...guides.map((guide) => ({
+			loc: `${site_url}/guides/${guide.slug}`,
 			lastmod: new Date().toISOString().split('T')[0]
 		}))
 	];
