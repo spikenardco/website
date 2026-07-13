@@ -8,7 +8,7 @@
 </svelte:head>
 
 <section class="px-6 pt-24 pb-20 sm:pt-32 sm:pb-28">
-	<div class="max-w-[75rem] mx-auto">
+	<div class="max-w-300 mx-auto">
 		<div class="max-w-xl mx-auto text-center">
 			<div class="w-16 h-16 rounded-2xl bg-clay/10 flex items-center justify-center mx-auto mb-8">
 				{#if page.status === 404}

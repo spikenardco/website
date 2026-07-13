@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
 	import { color_classes, projects } from '$lib/projects';
-	import TopographicLines from '$lib/components/hero-backgrounds/TopographicLines.svelte';
+	import TopographicLines from './TopographicLines.svelte';
 
 	const featured = projects.filter((p) => p.featured && p.show !== false);
 </script>
@@ -15,7 +15,7 @@
 <section class="px-6 pt-24 pb-20 sm:pt-32 sm:pb-28 relative">
 	<TopographicLines />
 
-	<div class="max-w-[75rem] mx-auto relative">
+	<div class="max-w-300 mx-auto relative">
 		<div class="max-w-2xl">
 			<p class="text-clay font-medium text-sm tracking-wide uppercase mb-4">Builder Collective</p>
 			<h1 class="text-4xl sm:text-5xl font-bold text-umber leading-tight tracking-tight">
@@ -50,7 +50,7 @@
 
 <!-- Featured Work -->
 <section id="work" class="px-6 py-20 sm:py-24 bg-neutral-50">
-	<div class="max-w-[75rem] mx-auto">
+	<div class="max-w-300 mx-auto">
 		<div class="flex items-end justify-between mb-12">
 			<div>
 				<p class="text-clay font-medium text-sm tracking-wide uppercase mb-2">Featured Work</p>
@@ -136,7 +136,7 @@
 
 <!-- What We Do -->
 <section id="about" class="px-6 py-20 sm:py-24">
-	<div class="max-w-[75rem] mx-auto">
+	<div class="max-w-300 mx-auto">
 		<div class="max-w-2xl">
 			<p class="text-clay font-medium text-sm tracking-wide uppercase mb-2">About</p>
 			<h2 class="text-3xl font-semibold text-umber tracking-tight">Crafted, not assembled.</h2>
@@ -162,7 +162,7 @@
 
 <!-- Values -->
 <section id="values" class="px-6 py-20 sm:py-24 bg-neutral-50">
-	<div class="max-w-[75rem] mx-auto">
+	<div class="max-w-300 mx-auto">
 		<div class="mb-12">
 			<p class="text-clay font-medium text-sm tracking-wide uppercase mb-2">Our Values</p>
 			<h2 class="text-3xl font-semibold text-umber tracking-tight">What we believe</h2>
@@ -203,7 +203,7 @@
 
 <!-- CTA -->
 <section class="px-6 py-20 sm:py-24">
-	<div class="max-w-[75rem] mx-auto text-center">
+	<div class="max-w-300 mx-auto text-center">
 		<h2 class="text-2xl sm:text-3xl font-semibold text-umber tracking-tight">The work speaks.</h2>
 		<p class="mt-4 text-neutral-500 max-w-md mx-auto">
 			Follow our journey on GitHub. Star a repo, open an issue, or just say hello.
