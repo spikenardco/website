@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
-	import { color_classes, projects } from '$lib/projects';
+	import { projects } from '$lib/projects';
+	import ProjectCard from '$lib/components/ProjectCard.svelte';
 	import TopographicLines from './TopographicLines.svelte';
 
 	const featured = projects.filter((p) => p.featured && p.show !== false);
@@ -63,66 +64,7 @@
 		</div>
 		<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
 			{#each featured as project (project.title)}
-				{@const colors = color_classes[project.color]}
-				{#if project.link}
-					<a
-						href={project.link}
-						target="_blank"
-						rel="noopener noreferrer"
-						class="bg-parchment border border-neutral-200 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow duration-200 group block"
-					>
-						<div class="flex items-center justify-between mb-4">
-							<div class="flex items-center gap-2">
-								<div class="w-8 h-8 rounded-md {colors.bg} flex items-center justify-center">
-									<span class="{project.icon} size-4 {colors.text}"></span>
-								</div>
-								<span class="text-xs font-medium text-neutral-400 uppercase tracking-wide"
-									>{project.type}</span
-								>
-							</div>
-							<span
-								class="icon-[lucide--arrow-up-right] size-4 text-neutral-300 group-hover:text-neutral-500 transition-colors duration-150"
-							></span>
-						</div>
-						<h3
-							class="text-neutral-700 font-semibold text-lg group-hover:text-umber transition-colors duration-150"
-						>
-							{project.title}
-						</h3>
-						<p class="text-neutral-500 mt-2 text-sm leading-relaxed">{project.description}</p>
-						<div class="mt-4 flex flex-wrap gap-2">
-							{#each project.tags as tag (tag)}
-								<span class="text-xs px-2 py-1 rounded-full bg-neutral-100 text-neutral-500"
-									>{tag}</span
-								>
-							{/each}
-						</div>
-					</a>
-				{:else}
-					<div
-						class="bg-parchment border border-neutral-200 rounded-lg p-6 shadow-sm block"
-					>
-						<div class="flex items-center justify-between mb-4">
-							<div class="flex items-center gap-2">
-								<div class="w-8 h-8 rounded-md {colors.bg} flex items-center justify-center">
-									<span class="{project.icon} size-4 {colors.text}"></span>
-								</div>
-								<span class="text-xs font-medium text-neutral-400 uppercase tracking-wide"
-									>{project.type}</span
-								>
-							</div>
-						</div>
-						<h3 class="text-neutral-700 font-semibold text-lg">{project.title}</h3>
-						<p class="text-neutral-500 mt-2 text-sm leading-relaxed">{project.description}</p>
-						<div class="mt-4 flex flex-wrap gap-2">
-							{#each project.tags as tag (tag)}
-								<span class="text-xs px-2 py-1 rounded-full bg-neutral-100 text-neutral-500"
-									>{tag}</span
-								>
-							{/each}
-						</div>
-					</div>
-				{/if}
+				<ProjectCard {project} linked={!!project.link} />
 			{/each}
 		</div>
 		<div class="mt-8 sm:hidden">
