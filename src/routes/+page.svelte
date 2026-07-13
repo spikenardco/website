@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-	<title>Spikenard — Built with intention</title>
+	<title>Spikenard | Built with intention</title>
 	<meta name="description" content="Spikenard is a builder collective. We make tools, share code, and learn in public." />
 </svelte:head>
 
