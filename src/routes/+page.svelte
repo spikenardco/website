@@ -26,7 +26,7 @@
 				spikenard (νάρδος) — <span class="italic">costly oil poured out in worship</span>
 			</p>
 			<p class="mt-6 text-lg text-neutral-600 max-w-prose leading-relaxed">
-				Spikenard is a collective of builders who believe software should be crafted with care and shared generously. We craft tools, platforms, and open-source projects.
+				Spikenard is a collective of builders who believe software should be crafted with care and shared generously. We craft tools, platforms, and open-source projects built for real workflows and real users.
 			</p>
 			<div class="mt-8 flex flex-wrap gap-4">
 				<a
