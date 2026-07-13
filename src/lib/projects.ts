@@ -170,6 +170,20 @@ export const projects: Project[] = [
 		opensource: true
 	},
 	{
+		title: 'Ziv',
+		description:
+			"A full-stack resume builder that ships as a single Go binary. SvelteKit frontend embedded in PocketBase, with 5 professional templates, live preview, and server-side PDF export via headless Chromium. Purpose-built for Sierra Leone's job market.",
+		tags: ['Go', 'SvelteKit', 'PocketBase', 'SQLite', 'PDF'],
+		category: 'Products',
+		type: 'App',
+		link: 'https://github.com/spikenardco/ziv',
+		icon: 'icon-[lucide--file-text]',
+		color: 'sage',
+		show: true,
+		featured: true,
+		opensource: true
+	},
+	{
 		title: 'campus-gist',
 		description:
 			'A social platform for students to share ideas, find solutions, attend events, and connect across institutions. Built with SvelteKit and MongoDB.',
