@@ -143,3 +143,28 @@ html {
     scroll-behavior: auto !important;
   }
 }
+
+/* Reading progress bar */
+@keyframes fill-progress {
+  from { transform: scaleX(0); }
+  to   { transform: scaleX(1); }
+}
+
+.reading-bar {
+  position: fixed;
+  top: 4rem;
+  left: 0;
+  width: 100%;
+  height: 0.125rem;
+  background: var(--color-clay);
+  transform-origin: 0 50%;
+  transform: scaleX(0);
+  z-index: 50;
+}
+
+@supports (animation-timeline: scroll()) {
+  .reading-bar {
+    animation: fill-progress linear both;
+    animation-timeline: scroll(root block);
+  }
+}

@@ -4,17 +4,10 @@
 	import type { PageProps } from './$types';
 
 	let { data }: PageProps = $props();
-
-	let scroll_progress = $state(0);
 </script>
 
-<svelte:window onscroll={() => {
-	const el = document.documentElement;
-	scroll_progress = el.scrollTop / (el.scrollHeight - el.clientHeight);
-}} />
-
 <svelte:head>
-	<title>{data.meta.title} — Spikenard</title>
+	<title>{data.meta.title} | Spikenard</title>
 	<meta name="description" content={data.meta.excerpt} />
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content={data.meta.title} />
@@ -22,9 +15,7 @@
 	<meta property="article:published_time" content={data.meta.date} />
 </svelte:head>
 
-<div class="fixed top-16 left-0 h-0.5 bg-clay/30 w-full z-50">
-	<div class="h-full bg-clay transition-[width] duration-75" style="width: {scroll_progress * 100}%"></div>
-</div>
+<div class="reading-bar bg-clay/30"></div>
 
 <article class="px-6 pt-24 pb-24 sm:pt-32">
 	<div class="max-w-[75rem] mx-auto">
