@@ -22,33 +22,24 @@ function calculate_reading_time(content: string): string {
 	return `${minutes} min read`;
 }
 
-function get_posts_meta(): PostMeta[] {
-	const modules = import.meta.glob<{ metadata: RawPostMeta }>(
-		'/src/posts/*.md',
-		{ eager: true }
-	);
+const modules = import.meta.glob<{ metadata: RawPostMeta }>(
+	'/src/posts/*.md',
+	{ eager: true }
+);
 
-	const raw_files = import.meta.glob<string>(
-		'/src/posts/*.md',
-		{ eager: true, query: '?raw', import: 'default' }
-	);
+const raw_files = import.meta.glob<string>(
+	'/src/posts/*.md',
+	{ eager: true, query: '?raw', import: 'default' }
+);
 
-	const posts: PostMeta[] = Object.entries(modules)
-		.map(([path, module]) => {
-			const slug = path.split('/').pop()!.replace('.md', '');
-			const raw = raw_files[path] ?? '';
-			return {
-				slug,
-				...module.metadata,
-				reading_time: calculate_reading_time(raw)
-			};
-		})
-		.filter((post) => !post.draft);
-
-	return posts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
-}
-
-export const posts = get_posts_meta();
+export const posts: PostMeta[] = Object.entries(modules)
+	.map(([path, module]) => ({
+		slug: path.split('/').pop()!.replace('.md', ''),
+		...module.metadata,
+		reading_time: calculate_reading_time(raw_files[path] ?? '')
+	}))
+	.filter((post) => !post.draft)
+	.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
 export function format_date(date_string: string): string {
 	return new Date(date_string).toLocaleDateString('en-US', {
