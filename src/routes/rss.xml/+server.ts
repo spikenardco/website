@@ -1,3 +1,4 @@
+import { text } from '@sveltejs/kit';
 import { posts } from '$lib/posts';
 
 export const prerender = true;
@@ -24,9 +25,5 @@ ${posts.map((post) => `    <item>
   </channel>
 </rss>`;
 
-	return new Response(xml, {
-		headers: {
-			'Content-Type': 'application/rss+xml'
-		}
-	});
+	return text(xml, { headers: { 'Content-Type': 'application/rss+xml' } });
 }
