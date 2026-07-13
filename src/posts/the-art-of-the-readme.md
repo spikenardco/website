@@ -7,7 +7,7 @@ authors: ['Team']
 draft: true
 ---
 
-You can tell a lot about a project by its README. Not the code quality — the care. A good README says: we respect your time, and we've thought about what you need to know. A bad one says: figure it out yourself.
+You can tell a lot about a project by its README. Not the code quality. The care. A good README says: we respect your time, and we've thought about what you need to know. A bad one says: figure it out yourself.
 
 We've open-sourced enough projects now to have opinions about this. Here's how we approach it.
 

@@ -9,7 +9,7 @@ draft: true
 
 When we started building **flags.zig**, we had a simple goal: a command-line argument parser that was type-safe, had zero runtime overhead, and didn't pull in half the internet as dependencies.
 
-We'd used Rust's clap before. It's excellent — arguably the gold standard for CLI parsing. But clap is a big dependency. For a small tool, you're adding megabytes of compile time for something that should be trivial. We wanted that level of ergonomics in something leaner.
+We'd used Rust's clap before. It's excellent, arguably the gold standard for CLI parsing. But clap is a big dependency. For a small tool, you're adding megabytes of compile time for something that should be trivial. We wanted that level of ergonomics in something leaner.
 
 ## Why not Rust, Go, or C?
 
@@ -45,4 +45,4 @@ Building flags.zig taught us that the right tool for a job isn't always the most
 
 We're now using Zig for **tip** (our password manager) as well. The same principles apply — when your tool handles sensitive data, you want a language where you can reason about every allocation and every byte.
 
-If you're building CLI tools and haven't tried Zig, give it a look. The documentation is sparse and the community is small, but the language itself is remarkably well-designed.
+If you're building CLI tools and haven't tried Zig, give it a look. The documentation is sparse and the community is small, but the language itself is well-designed.

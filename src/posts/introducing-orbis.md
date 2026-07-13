@@ -19,7 +19,7 @@ The obvious problem with paper records is that they get lost. Folders are misfil
 
 A patient in Sierra Leone might visit a private clinic for a consultation, a lab for blood work, a hospital for a follow-up, and a pharmacy for medication — all within a week. Each facility maintains its own records. None of them can see what the others have written. The patient becomes the messenger for their own medical history, and patients are unreliable messengers — not because they're careless, but because medical information is complex.
 
-Misremembered allergies. Forgotten medications. Duplicate tests because the previous results are at another clinic. These aren't edge cases — they're everyday realities that affect patient safety.
+Misremembered allergies. Forgotten medications. Duplicate tests because the previous results are at another clinic. These aren't edge cases. They're everyday realities that affect patient safety.
 
 ## What Orbis does
 
@@ -45,7 +45,7 @@ Building a shared health records system means taking privacy seriously. Medical 
 
 **Complete audit trail.** Every record access and every modification is logged: who accessed it, when, from which facility, and what they changed. The audit trail is immutable and has a seven-year retention policy.
 
-We're building to the standards of ECOWAS data protection principles and drawing from HIPAA's framework — not because Sierra Leone requires it today, but because we believe health data should be protected regardless of what the law says.
+We're building to the standards of ECOWAS data protection principles and drawing from HIPAA's framework, not because Sierra Leone requires it today, but because we believe health data should be protected regardless of what the law says.
 
 ## Why Go
 

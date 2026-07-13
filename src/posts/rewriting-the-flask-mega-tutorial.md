@@ -7,9 +7,9 @@ authors: ['Team']
 draft: true
 ---
 
-Miguel Grinberg's [Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) is a masterclass in teaching web development. It walks you through building a complete blog application — authentication, database migrations, email, deployment — all in Flask. It's been helping developers learn for over a decade.
+Miguel Grinberg's [Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) is one of the best learning resources in web development. It walks you through building a complete blog application: authentication, database migrations, email, deployment, all in Flask. It's been helping developers learn for over a decade.
 
-We rebuilt it. Not because the original is bad (it's not — it's excellent), but because we wanted to see how the same concepts translate to a 2026 stack: **SvelteKit** on the frontend, **Go** with **chi** on the backend, and **SQLite** with **sqlx** for persistence.
+We rebuilt it. Not because the original is bad (it's not, it's excellent), but because we wanted to see how the same concepts translate to a 2026 stack: **SvelteKit** on the frontend, **Go** with **chi** on the backend, and **SQLite** with **sqlx** for persistence.
 
 ## What stayed the same
 
@@ -21,7 +21,7 @@ The tutorial's *teaching structure* also held up perfectly. Miguel's approach of
 
 **The frontend-backend split.** Flask serves HTML directly. Our version has a clear API boundary — the Go backend serves JSON, SvelteKit consumes it. This adds complexity (CORS, token management, separate dev servers) but it reflects how most production apps are built today.
 
-**Reactivity.** The biggest upgrade. In Flask, every interaction is a full page reload. In SvelteKit, navigation is instant, forms update without refreshing, and the UI feels like an application rather than a document. This is where the modern stack really shines.
+**Reactivity.** The biggest upgrade. In Flask, every interaction is a full page reload. In SvelteKit, navigation is instant, forms update without refreshing, and the UI feels like an application rather than a document. This is where the modern stack makes the biggest difference.
 
 **Type safety end-to-end.** Go structs define the API shape. TypeScript interfaces on the SvelteKit side match them. When we change a field in the Go struct, the TypeScript compiler catches every place that needs updating. Flask with Python doesn't give you this — you find mismatches at runtime.
 
